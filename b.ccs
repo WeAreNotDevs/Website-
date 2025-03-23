@@ -1,0 +1,150 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #101010; /* Dark background for contrast */
+    color: #e0e0e0; /* Light gray text for readability */
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    padding: 0;
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+/* Main Content Area */
+.main-content {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 40px;
+}
+
+/* Intro Section */
+.intro h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #bbb;
+}
+
+/* Code Section */
+.code-section h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.code-box {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+button.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+button.btn:hover {
+    background-color: #555;
+}
+
+/* Image Section */
+.image-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.responsive-img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+/* Features Section */
+.features h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.features li {
+    background-color: #2a2a2a;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    color: #ddd;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Message Section */
+.message p {
+    font-size: 1.2rem;
+    color: #ccc;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #101010;
+    color: #bbb;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    font-size: 0.9rem;
+      }
